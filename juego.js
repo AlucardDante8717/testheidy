@@ -72,4 +72,13 @@ function descuento(){
 
 // Hola jorge como vamos??
 // todo bien !!!
+
+// que tal el clima hoy??
+
 //si se pudiera hacer un arreglo 
+
+
+// que tal el clima hoy??
+
+
+/// asdhjfiend;LD
