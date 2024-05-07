@@ -1,0 +1,40 @@
+body{
+background-color: aquamarine;
+
+}
+
+#pi{
+    background-color: rgba(84, 189, 107, 0.986);
+    border-radius: 50%;
+    
+}
+
+#pa{
+    background-color: rgba(84, 189, 107, 0.986);
+    border-radius: 50%;
+    
+}
+
+#ti{
+    background-color: rgba(84, 189, 107, 0.986);
+    border-radius: 50%;
+    
+}
+
+button{
+    background-color: rgba(84, 189, 107, 0.986);
+}
+
+#imgg{
+    width: 100px;
+    height: 100px;
+border-radius: 50%;
+}
+
+img{
+    width: 120px;
+    border: 2px;
+    border-color: rgb(39, 26, 11);
+    border-radius: 30%;
+
+}

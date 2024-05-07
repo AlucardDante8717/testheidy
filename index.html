@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller de condicionales </title>
+    <script src="juego.js"></script>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body>
+    <h2>~♥* Juguemos un poco (piedra papel y tijeras) *♥~</h2>
+    <p> profe juegue plis le agregue un plus ♥</p>
+
+    <table>
+        <tr>
+            <td> <button onclick="play(0)" id="pi">
+                    <img src="assets/img/piedra.png" id="imgg" alt="">
+                </button>
+            </td>
+            <td> <button onclick="play(1)" id="pa">
+                    <img src="assets/img/papel.png" id="imgg" alt="">
+                </button>
+            </td>
+            <td> <button onclick="play(2)" id="ti">
+                    <img src="assets/img/tijeras.png" id="imgg" alt="">
+                </button></td>
+            <td id="resultado"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>
+                <h2>~♥* Calculadora de Calificaciones*♥~</h2>
+                <label for="estudiante">Calificacion del estudiante:</label>
+                <input type="number" id="estudiante" placeholder="calificacion 1 al 100">
+                <br>
+                <label for="boton1">Calcular Calificacion:</label>
+                <button type="button" onclick="calcularcalificacion()" id="boton1"> calcular</button>
+            </td>
+            <td> <img src="assets/img/calcular.jpg" alt=""></td>
+        </tr>
+        <tr>
+            <td>
+                <h2>~♥*Calculadora de descuento de compra *♥~</h2>
+                <label for="valor">Precio total de su compra:</label>
+                <input type="number" id="valor" placeholder=" ingrese el valor de su compra">
+                <br>
+                <label for="boton2">Compruebe su descuento:</label>
+                <button type="button" onclick="descuento()" id="boton2">Comprobar</button>
+            </td>
+            <td><img src="assets/img/descuento.jpg" alt=""></td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>
