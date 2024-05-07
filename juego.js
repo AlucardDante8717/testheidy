@@ -72,3 +72,4 @@ function descuento(){
 
 // Hola jorge como vamos??
 // todo bien !!!
+//si se pudiera hacer un arreglo 
